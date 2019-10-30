@@ -1,0 +1,12 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: excel_email
+  mail:
+    host: smtp.163.com
+    #小伙子们,我的这个就不要乱用了,用你们自己的
+    username: gavincoder@163.com
+    password: qwertyuiop123
+    default-encoding: utf-8
