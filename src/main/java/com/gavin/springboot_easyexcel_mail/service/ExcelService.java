@@ -104,14 +104,14 @@ public class ExcelService {
 
         ExportInfo model1 = new ExportInfo();
         model1.setName("gavin");
-        model1.setAge("19");
+        model1.setAge(19);
         model1.setAddress("南京");
         model1.setEmail("xunyegege@gmail.com");
         list.add(model1);
 
         ExportInfo model2 = new ExportInfo();
         model2.setName("zmx");
-        model2.setAge("20");
+        model2.setAge(20);
         model2.setAddress("南京杭州");
         model2.setEmail("gavincoder@163.com");
         list.add(model2);

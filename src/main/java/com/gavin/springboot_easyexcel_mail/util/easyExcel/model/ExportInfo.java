@@ -16,7 +16,7 @@ public class ExportInfo extends BaseRowModel {
     private String name;
 
     @ExcelProperty(value = {"统一测试","测试","年龄"},index = 1)
-    private String age;
+    private int age;
 
     @ExcelProperty(value = {"统一测试","邮箱","邮箱"},index = 2)
     private String email;
